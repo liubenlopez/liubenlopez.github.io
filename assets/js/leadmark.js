@@ -1,6 +1,6 @@
 // smooth scroll
-$(document).ready(function(){
-    $(".navbar .nav-link").on('click', function(event) {
+$(document).ready(function () {
+    $(".navbar .nav-link").on('click', function (event) {
 
         if (this.hash !== "") {
 
@@ -10,15 +10,15 @@ $(document).ready(function(){
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 700, function(){
+            }, 700, function () {
                 window.location.hash = hash;
             });
-        } 
+        }
     });
 });
 
 // protfolio filters
-$(window).on("load", function() {
+$(window).on("load", function () {
     var t = $(".portfolio-container");
     t.isotope({
         filter: ".all",
@@ -27,8 +27,8 @@ $(window).on("load", function() {
             easing: "linear",
             queue: !1
         }
-    }), $(".filters a").click(function() {
-        $(".filters .active").removeClass("active"), $(this).addClass("active");
+    }), $(".filtersAux a").click(function () {
+        $(".filtersAux .active").removeClass("active"), $(this).addClass("active");
         var i = $(this).attr("data-filter");
         return t.isotope({
             filter: i,

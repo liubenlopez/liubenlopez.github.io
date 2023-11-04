@@ -11058,7 +11058,7 @@ hr {
 }
 
 .btn.btn-sm, .btn-group-sm > .btn {
-  font-size: 13px;
+  font-size: 8px;
 }
 
 .btn.rounded {
@@ -11611,7 +11611,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/blog-3.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11728,11 +11728,20 @@ textarea.form-control {
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder .subtitle {
   font-weight: 500;
+  font-size: 10px;
   opacity: 1;
+  margin-bottom: 5px;
 }
 
 .portfolio-section .portfolio-container .portfolio-item:hover .content-holder {
   left: 50%;
   opacity: 1;
   visibility: visible;
+}
+
+.portfolio-section .portfolio-container .portfolio-item .content-holder .photo{
+  position: absolute;
+  width: 100px;
+  top: 0;
+  right: 0;
 }
