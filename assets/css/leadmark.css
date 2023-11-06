@@ -12893,6 +12893,15 @@ textarea.form-control {
   border-radius: 50px;
 }
 
+.modal .modal-body .close:focus,
+.modal .modal-body .close:active {
+    -moz-outline: 0;
+    -ms-outline:0;
+    -o-outline: 0;
+    -webkit-outline: 0;
+    outline: none;
+} 
+
 .modal .modal-body .img-fluid {
   border-radius: 3px;
   width: 100%;
