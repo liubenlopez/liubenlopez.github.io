@@ -12866,9 +12866,10 @@ textarea.form-control {
   right: 0;
 }
 
-.portfolio-section .portfolio-container .portfolio-item .content-holder .showPhoto {
+.portfolio-section .portfolio-container .showPhoto {
   position: absolute;
   cursor: pointer;
+  font-size: 25px;
   right: 6px;
   top: 4px;
 }
