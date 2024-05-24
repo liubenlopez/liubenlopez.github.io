@@ -2369,6 +2369,10 @@ pre code {
   .table-responsive-md>.table-bordered {
     border: 0;
   }
+
+  .image2 {
+    display: none;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -12871,7 +12875,20 @@ textarea.form-control {
   cursor: pointer;
   font-size: 25px;
   right: 6px;
-  top: 4px;
+  top: 6px;
+}
+
+.portfolio-section .portfolio-container .projectStatus {
+  position: absolute;
+  font-size: 13px;
+  right: 8px;
+  bottom: 6px;
+  font-weight: 500;
+  border: 1px solid #1b1b1b;
+}
+
+.portfolio-section .portfolio-container .projectStatus i {
+  font-weight: bolder;
 }
 
 .filtersAux {
@@ -12896,12 +12913,12 @@ textarea.form-control {
 
 .modal .modal-body .close:focus,
 .modal .modal-body .close:active {
-    -moz-outline: 0;
-    -ms-outline:0;
-    -o-outline: 0;
-    -webkit-outline: 0;
-    outline: none;
-} 
+  -moz-outline: 0;
+  -ms-outline: 0;
+  -o-outline: 0;
+  -webkit-outline: 0;
+  outline: none;
+}
 
 .modal .modal-body .img-fluid {
   border-radius: 3px;
