@@ -2356,6 +2356,10 @@ pre code {
   .table-responsive-sm>.table-bordered {
     border: 0;
   }
+
+  .section {
+    padding: 30px 3px 30px 3px !important;
+  }
 }
 
 @media (max-width: 767.98px) {
